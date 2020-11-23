@@ -5,6 +5,13 @@ Welcome to Silicon Valley! For this assignment, our domain is the startup world!
 If you are not sketching out your domain, and thinking about single source of truth,
 you are doing it wrong :(
 
+** Funding Rounds (Joiner)
+
+ ** Start_up needs funding 
+      - start up has many Venture Capitalists through Funding Rounds 
+ ** Venture Capitalists provide funding rounds  
+      - 
+
 ## Topics
 
 - Classes vs Instances
