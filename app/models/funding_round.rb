@@ -1,11 +1,16 @@
 class FundingRound
 
-     attr_accessor 
+     attr_accessor :type, :investment
      attr_reader :startup, :venture_capitalist
 
      @@all = []
+     
+     # startup = returns the startup object for that given funding round. 
+     # Once a funding round is created, should not be able to change startup
+     # venture_capitalist = returns the venture capitalist object for that given
+     # funding round. Cannot change vc once created. 
 
-     def initialize(type, investment)
+     def initialize(type, investment, startup, venture_capitalist)
           @type = type
           @investment = investment
           @startup = startup
@@ -16,16 +21,6 @@ class FundingRound
 
      def self.all
           @@all
-     end
-
-     def startup
-     end
-
-     def venture_capitalist
-     end
-
-     def type
-          self.type.select { |funding_type| funding_type.type == self }
      end
 
 
